@@ -1,0 +1,12 @@
+.imwpnotifier_gs_log_men{
+    float: left;
+}
+
+.inpwpnotifier_admin_conf .wpnotif_admin_submit[type="submit"] {
+    left: 45px !important;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow{
+    right: unset;
+    left: 10px;
+}

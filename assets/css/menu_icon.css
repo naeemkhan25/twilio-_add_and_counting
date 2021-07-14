@@ -1,0 +1,9 @@
+.menu-icon-inwpnotifier .wp-menu-image{
+ display: flex;
+ align-items: center;
+}
+
+.menu-icon-inwpnotifier .wp-menu-image img{
+  max-width: 100%;
+  padding-top: 0 !important;
+}

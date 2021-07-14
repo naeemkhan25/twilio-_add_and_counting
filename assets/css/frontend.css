@@ -1,0 +1,93 @@
+.inwpnotifier-panel-heading h5{
+    color:#00d082;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+#inwpnotif-bis-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+}
+.inwpnotifier_description{
+    font-size: 15px;
+
+}
+
+.inwpstock_button {
+    width:50%;
+    padding-top:5px;
+    background:skyblue;
+    color:white;
+}
+.inwpstock_whatsapp_sms{
+    border: #00d082 2px solid;
+}
+
+
+
+.inwpnotifier_card {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    height: 250px;
+    position: relative
+}
+
+.inwpntifier_verify_container {
+    height: 100vh
+}
+
+
+.inwpnotifier_mobile-text {
+    color: #989696b8;
+    font-size: 15px
+}
+
+.form-control{
+    margin-right: 12px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff8880;
+    outline: 0;
+    box-shadow: none
+}
+
+.cursor {
+    cursor: pointer
+}
+.toggle-row{
+    display:none;
+}
+.iwgsubscribed{
+    background-color:#3789E2;
+    color: white;
+}
+.iwgsmssent{
+    background-color: green;
+    color: white;
+}
+.inwpnotifier_delete{
+    color:green;
+}

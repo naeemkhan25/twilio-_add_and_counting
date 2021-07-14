@@ -1,0 +1,1509 @@
+
+@-webkit-keyframes wp-load-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes wp-load-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.inpwpnotifier_admin_conf a, .inpwpnotifier_admin_conf a:focus, .inpwpnotifier_admin_conf a:active {
+    text-decoration: none;
+    outline: 0 !important;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+
+.inpwpnotifier_admin_conf a img {
+    cursor: pointer !important;
+}
+
+.inpwpnotifier_admin_conf h2 {
+    margin: 0;
+}
+
+
+
+
+.inpwpnotifier_admin_conf input[type='checkbox'] {
+    width: auto !important;
+    line-height: 30px !important;
+    padding: 0 !important;
+    height: 16px !important;
+}
+
+
+.inwpnotifier_gs_log_men {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    text-transform: uppercase;
+}
+
+.inwpnotifier_gs_log_men li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+
+html[dir="rtl"] .inwpnotifier_gs_log_men li {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+html[dir="rtl"] .inwpnotifier_gs_log_men li:last-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.inwpnotifier_gs_log_men li a {
+    cursor: pointer;
+    font-size: 15px;
+    color: #1F3448;
+}
+
+.inwpnotifier_gs_log_men li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+
+.inpwpnotifier_admin_conf *, .inpwpnotifier_admin_conf label {
+    cursor: default;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier-nav-tab {
+    font-size: 17px;
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 60px;
+    color: #1F3448;
+    height: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.inwpnotifier_gs_log_men .inwpnotifier-nav-tab-active {
+    color: #4CAF50 ;
+}
+
+.inwpnotifier-tab-ul {
+    clear: both;
+    margin: 0;
+    position: relative;
+}
+
+#inwpnotifier-tab-magic-line {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    padding: 0;
+    height: 3px;
+    width: 100px;
+    background: #4CAF50 ;
+    top: 45px;
+}
+
+.inwpnotifier-tab-ul li {
+    display: inline;
+    padding: 0;
+    margin: 0 8px;
+}
+
+.inpwpnotifier_admin_conf {
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+}
+
+.inwpnotifier_log_setge {
+    position: relative;
+}
+
+
+.inpwpnotifier_admin_conf .form-table td {
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.inpwpnotifier_admin_conf input, .inpwpnotifier_admin_conf select, .inpwpnotifier_admin_conf textarea {
+    box-shadow: none !important;
+}
+
+.inpwpnotifier_admin_conf .form-table th, .inpwpnotifier_admin_conf .form-table td {
+    padding: 0;
+    min-height: 42px;
+}
+
+
+
+
+
+
+.inpwpnotifier_admin_conf .form-table td {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.inpwpnotifier_admin_conf .form-table .dignochkbxra td {
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+.inpwpnotifier_admin_conf .form-table .dignochkbxra td:first-of-type {
+    padding-left: 0;
+}
+
+.inpwpnotifier_admin_conf .form-table .digno-tr_dt {
+    padding: 0;
+}
+
+.digno-tr_dt {
+    line-height: 1.7;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default.select2-container--focus .select2-selection--multiple,
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--multiple {
+    border: 1px solid rgba(57, 203, 155, 0.25) !important;
+    background: #FFFFFF !important;
+}
+
+.inpwpnotifier_admin_conf .selection .select2-search__field {
+    border: none !important;
+}
+
+.inpwpnotifier_admin_conf .select2-container {
+    width: 100% !important;
+}
+
+
+
+.inpwpnotifier_admin_conf textarea {
+    min-height: 100px;
+    font-size: 16px;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_admin_in_pt input, .inpwpnotifier_admin_conf select, .inpwpnotifier_admin_conf textarea {
+    padding: 10px 16px;
+    resize: vertical;
+    box-shadow: none !important;
+    border: 1px solid rgba(57, 203, 155, 0.25);
+    border-radius: 4px;
+}
+
+.inpwpnotifier_admin_conf select {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.inpwpnotifier_admin_conf table input, .inpwpnotifier_admin_conf table select, .inpwpnotifier_admin_conf table textarea {
+    width: 100%;
+}
+
+
+
+
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-search--inline .select2-search__field {
+    height: 40px !important;
+    line-height: 40px !important;
+    margin-top: 0;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--multiple .select2-selection__choice,
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--multiple {
+    border-radius: 4px;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default.select2-container--focus .select2-selection--multiple,
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--multiple {
+    border: 1px solid #e9e9e9;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background: #f6f6f6;
+}
+
+
+
+
+
+.inpwpnotifier_admin_conf .wp-picker-container input.wp-color-picker[type="text"], .inpwpnotifier_admin_conf .form-table .button, .inpwpnotifier_admin_conf .wp-core-ui .button-secondary {
+    text-align: center;
+}
+
+.inpwpnotifier_admin_conf .form-table .button, .inpwpnotifier_admin_conf .form-table .button:hover {
+    position: relative;
+    top: 1px;
+    border: 1px solid #4CAF50 ;
+    border-radius: 2px;
+    background: rgba(33, 238, 171, 0.1);
+    font-size: 16px;
+    color: #1F3448;
+}
+
+.inpwpnotifier_admin_conf .wp-core-ui .button {
+    padding: 0 !important;
+}
+
+.inpwpnotifier_admin_conf .wp-core-ui .button.button-small {
+    height: 42px !important;
+    font-size: 14px;
+    padding: 0 17px 1px !important;
+}
+
+.inpwpnotifier_admin_conf .wp-color-result::after {
+    line-height: 42px;
+    font-size: 14px;
+}
+
+.inpwpnotifier_admin_conf .wp-color-result {
+    height: 42px;
+}
+
+.inpwpnotifier_admin_conf .form-table {
+    margin-top: 0;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.inpwpnotifier_admin_conf .form-table td .wp-picker-clear, .inpwpnotifier_admin_conf .form-table td .wp-color-picker[type="text"] {
+    width: auto !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    height: 24px;
+    line-height: 1.5;
+}
+
+.inpwpnotifier_admin_conf img[src=""] {
+    display: none;
+}
+
+.inpwpnotifier_admin_conf dd, .inpwpnotifier_admin_conf li {
+    margin-bottom: 0 !important;
+}
+
+.inpwpnotifier_admin_conf .wp-color-result {
+    padding-left: 29%;
+    width: 20%;
+    min-width: 98px;
+}
+
+.inpwpnotifier_admin_conf .wp-picker-container {
+    width: 100%;
+}
+
+.icon-gear, .icon-gear\:regular {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2321eeab' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' class='feather feather-settings'%3E%3Ccircle cx='12' cy='12' r='3'%3E%3C/circle%3E%3Cpath d='M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat
+}
+
+.icon-gear-dims {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+/*.inwpnotifer_pro_bttton{*/
+/*    background-color: #fbcbc4;*/
+/*}*/
+
+.icon-drag-dims {
+    height: 18px;
+    width: 16px;
+}
+
+
+
+
+
+
+
+
+
+.inpwpnotifier_admin_conf .inwpnotifier_sts_logo img {
+    height: 36px;
+    width: 169px;
+}
+
+.inwpnotifier_log_setge {
+    margin-top: 20px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.75fr 0.25fr;
+}
+
+
+
+
+.inwpnotifier-tab-wrapper-fixed {
+    position: fixed;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier-tab-wrapper {
+    background: #f7f8f9;
+    min-height: 60px;
+    z-index: 999;
+    padding: 0 0 0 34px;
+    box-sizing: border-box;
+}
+
+.inwpnotifier_admin_left_side {
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 0px;
+    background: #fff;
+    min-height: 100vh;
+    padding-bottom: 28px;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_sts_logo img {
+    padding: 19px 0;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_sts_logo {
+    padding: 0 28px;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_activation_form {
+    margin: 0px 28px 28px;
+    position: relative;
+}
+
+.inwpnotifier_admin_in_pt {
+    padding-top: 16px;
+    clear: both;
+}
+
+
+.inpwpnotifier_admin_conf label {
+    color: rgba(31, 52, 72, .81);
+    font-size: 16px;
+    font-weight: normal;
+    overflow-wrap: anywhere;
+}
+
+.inpwpnotifier_admin_conf .wp-picker-container .wp-color-result.button .color-alpha {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+@media all and (max-width: 1080px) {
+
+
+    .inwpnotifier_log_setge {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+.inwpnotifier_admin_head span {
+    padding-right: 28px;
+    line-height: 22px;
+}
+
+.inwpnotifier_admin_in_pt .inwpnotifier_admin_head:first-child {
+    padding-top: 0px;
+}
+
+.inwpnotifier_admin_in_pt .country_specific .inwpnotifier_admin_head, .inwpnotifier_admin_in_pt .inwpnotifier_admin_head {
+    padding-top: 30px;
+}
+
+.inwpnotifier_admin_head {
+    overflow: hidden;
+    text-align: left;
+    color: #1F3448;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    cursor: default;
+    direction: ltr;
+}
+
+.inwpnotifier_admin_head:after {
+    background-color: rgba(57, 203, 155, 0.25);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.inpwpnotifier_admin_conf .form-table th {
+    vertical-align: middle;
+}
+
+
+
+.digotlbr td {
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+
+.digno-tr_dt {
+    text-align: center;
+}
+
+
+
+.inpwpnotifier_admin_conf hr {
+    border-top: 1px solid #eee;
+}
+
+
+
+
+
+.inpwpnotifier_admin_conf .flipIn,
+.inpwpnotifier_admin_conf h1,
+.inpwpnotifier_admin_conf ul li {
+    animation: flipdown 0.5s ease both;
+}
+
+.inpwpnotifier_admin_conf ul {
+    list-style: none;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_gs_log_men li {
+    position: relative;
+    padding-bottom: 4px;
+    padding-top: 18px;
+}
+
+.inpwpnotifier_admin_conf ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 48px;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.inwpnotifier_load_content{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inwpnotifier_load_overlay_gs {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background: rgba(6, 6, 6, 0.8);
+    text-align: center;
+}
+
+.inwpnotifier_load_overlay_gs::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.inpwpnotifier_admin_conf .circle-loader {
+    margin: 0 0 30px 10px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #FFFFFF;
+    animation-name: loader-spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inpwpnotifier_admin_conf .circle-loader, .inpwpnotifier_admin_conf .circle-loader:after {
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
+
+.inpwpnotifier_admin_conf .load-complete {
+    -webkit-animation: none;
+    animation: none;
+    border-color: #FFFFFF;
+    transition: border 500ms ease-out;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_checkmark {
+    display: none;
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_checkmark.inwpnotifier_draw:after {
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-name: inwpnotifier_checkmark;
+    transform: scaleX(-1) rotate(135deg);
+}
+
+.inpwpnotifier_admin_conf .inwpnotifier_checkmark:after {
+    opacity: 1;
+    height: 4em;
+    width: 2em;
+    transform-origin: left top;
+    border-right: 4px solid #FFFFFF;
+    border-top: 4px solid #FFFFFF;
+    border-radius: 0 6px 0 0;
+    content: '';
+    left: 21px;
+    top: 4.2em;
+    position: absolute;
+}
+
+@keyframes loader-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes inwpnotifier_checkmark {
+    0% {
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    20% {
+        height: 0;
+        width: 2em;
+        opacity: 1;
+    }
+    40% {
+        height: 4em;
+        width: 2em;
+        opacity: 1;
+    }
+    100% {
+        height: 4em;
+        width: 2em;
+        opacity: 1;
+    }
+}
+
+@media all and (max-width: 822px) {
+    .inwpnotifier-tab-ul li {
+        display: block;
+    }
+
+    #inwpnotifier-tab-magic-line {
+        display: none !important;
+    }
+}
+
+
+.inpwpnotifier_admin_conf .wp-color-result-text {
+    display: none;
+}
+
+.inpwpnotifier_admin_conf {
+    margin: 0 10px 0 0;
+    padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 822px) {
+    .inpwpnotifier_admin_conf .form-table th {
+        min-height: auto;
+    }
+
+    .inpwpnotifier_admin_conf .form-table td {
+        padding-bottom: 20px;
+        padding-top: 8px;
+    }
+
+    .inpwpnotifier_admin_conf label {
+        padding-left: 4px;
+    }
+
+    .inwpnotifier_gs_log_men {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #b7b7b7;
+    }
+
+    .inpwpnotifier_admin_conf .inwpnotifier-nav-tab {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .inpwpnotifier_admin_conf .inwpnotifier-tab-wrapper {
+        padding-left: 12px;
+    }
+
+    .inwpnotifier-tab-ul {
+        padding-bottom: 12px;
+    }
+
+    .inpwpnotifier_admin_conf .inwpnotifier-nav-tab-active {
+        color: #00b5ec !important;
+    }
+}
+
+
+
+
+@-webkit-keyframes update_rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-359deg);
+    }
+}
+
+
+.inwpnotifier_message_settings_box {
+    background-color: rgba(24, 138, 101, 0.02);
+    border: 1px solid rgba(57, 203, 155, 0.25);
+    padding: 22px 24px;
+    margin-bottom: 18px;
+    position: relative;
+    border-radius: 2px;
+}
+.inwpnotifier_frontend_form_box {
+    background-color: rgba(24, 138, 101, 0.02);
+    border: 1px solid rgba(57, 203, 155, 0.25);
+    padding: 22px 24px;
+    margin-bottom: 18px;
+    position: relative;
+    border-radius: 2px;
+}
+
+.inwpnotifier_email_box {
+    background-color: rgba(24, 138, 101, 0.02);
+    border: 1px solid rgba(57, 203, 155, 0.25);
+    padding: 22px 24px;
+    margin-bottom: 18px;
+    position: relative;
+    border-radius: 2px;
+}
+.inwpnotifier_gateway_box {
+    background-color: rgba(24, 138, 101, 0.02);
+    border: 1px solid rgba(57, 203, 155, 0.25);
+    padding: 22px 24px;
+    margin-bottom: 18px;
+    position: relative;
+    border-radius: 2px;
+}
+
+
+.inwpnotifier_gateway_configure_gateway {
+    position: absolute;
+    top: 22px;
+    cursor: pointer;
+    z-index: 2;
+    right: 78px;
+
+}
+
+
+
+.active .inwpnotifier_gateway_configure_gateway {
+    right: 78px;
+}
+
+.inwpnotifier_gateway_box_close  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 66px;
+    z-index: 1;
+}
+
+
+
+.inwpnotifier_frontend_form_target_head {
+    color: #1F3448;
+    font-size: 17px;
+    width: 250px;
+}
+.inwpnotifier_message_settings_target_head {
+    color: #1F3448;
+    font-size: 17px;
+    width: 250px;
+}
+
+.inwpnotifier_gateway_target_head {
+    color: #1F3448;
+    font-size: 17px;
+    width: 250px;
+}
+
+.inwpnotifier_message_settings_target_head {
+    float: left;
+}
+.inwpnotifier_frontend_form_target_head {
+    float: left;
+}
+.inwpnotifier_gateway_target_head {
+    float: left;
+}
+
+
+.inwpnotifier_gateway_collapse_box .inwpnotifier_gateway_for_list .inwpnotifier_gate_for {
+    font-style: italic;
+}
+
+.inwpnotifier_gateway_collapse_box .inwpnotifier_gateway_for_list {
+    color: #5E5E5E;
+    opacity: 0.62;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 60px;
+}
+
+.inwpnotifier_gateway_collapse_box {
+    display: block;
+}
+.inpwpnotifier_admin_conf .inwpnotifier_whatsapp_minitoggle{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 9;
+}
+
+.active .inwpnotifier_gateay_conf_expand {
+    display: none;
+}
+
+
+
+.inwpnotifier_admin_left_side .add_gateway_group_button {
+    color: rgba(31, 52, 70, 0.70);
+    border: 1px dashed rgba(31, 52, 70, 0.70);
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer !important;
+    margin-top: 18px;
+    margin-right: 2px;
+}
+
+.gateway_countries .select2-container--default .select2-search--inline .select2-search__field {
+    border: none !important;
+}
+
+
+.inpwpnotifier_admin_conf .input-switch input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.inpwpnotifier_admin_conf .input-switch label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 48px;
+    height: 24px;
+    background: rgba(170, 170, 170, 0.1);
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    position: relative;
+}
+
+.inpwpnotifier_admin_conf .input-switch label:after {
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 2px;
+    width: 19px;
+    height: 19px;
+    background: #AAAAAA;
+    border-radius: 19px;
+    transition: 0.3s ease-in-out;
+}
+
+.inpwpnotifier_admin_conf .input-switch input:checked + label {
+    border: 1px solid #4CAF50 ;
+    background: #4CAF50 ;
+}
+
+.inpwpnotifier_admin_conf .input-switch input:checked + label:after {
+    background: #FFFFFF;
+}
+
+.inpwpnotifier_admin_conf .input-switch input:checked + label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.inpwpnotifier_admin_conf .input-switch label:active:after {
+    width: 26px;
+}
+
+.inpwpnotifier_admin_conf .input-switch {
+    position: relative;
+    line-height: 13px;
+    display: inline-block;
+}
+
+.inpwpnotifier_admin_conf .input-switch .status_text {
+    font-size: 10px;
+    position: absolute;
+    top: 7px;
+    text-transform: uppercase;
+}
+
+.inpwpnotifier_admin_conf .input-switch span {
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+.inpwpnotifier_admin_conf .input-switch .no, .inpwpnotifier_admin_conf .input-switch.checked .yes {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.inpwpnotifier_admin_conf .input-switch .yes, .inpwpnotifier_admin_conf .input-switch.checked .no {
+    opacity: 0;
+    transform: scale(0.6);
+}
+
+.inpwpnotifier_admin_conf .input-switch .yes {
+    left: 9px;
+    color: #ffffff;
+}
+
+.inpwpnotifier_admin_conf .input-switch .no {
+    right: 6px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.inpwpnotifier_admin_conf .select2-container {
+    z-index: 99;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background: #fff !important;
+    border: 1px solid rgba(57, 203, 155, 0.25) !important;
+    padding: 4px 10px 2px 10px !important;
+    font-size: 15px;
+    height: auto;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    margin-right: 6px !important;
+    color: rgba(62, 0, 0, 0.5) !important;
+}
+
+.inpwpnotifier_admin_conf .form-table select {
+    min-width: 120px;
+    line-height: 20px;
+    border-radius: 3px;
+}
+
+.inpwpnotifier_admin_conf .form-table .select2 ul li {
+    padding: 0 5px !important;
+}
+
+.inpwpnotifier_admin_conf .form-table .select2-container--default.select2-container--focus .select2-selection--multiple,
+.inpwpnotifier_admin_conf .form-table .select2-container--default .select2-selection--multiple {
+    border: solid #ddd 1px;
+}
+
+.inpwpnotifier_admin_conf .form-table .select2-container--default .select2-search--inline .select2-search__field {
+    min-width: 277px;
+}
+
+
+
+.dig_load_overlay {
+    position: fixed;
+}
+
+.dig_spinner {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.dig_double-bounce1, .dig_double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dig_double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.quick_sms_grid {
+    position: relative;
+}
+
+.quick_sms_grid textarea {
+    width: 100%;
+}
+
+
+
+.inpwpnotifier_admin_conf .quick_sms_grid {
+    display: grid;
+    grid-template-columns: 0.8fr 0.3fr;
+}
+
+
+
+.inpwpnotifier_admin_conf .quick_sms {
+    border: 1px solid rgba(57, 203, 155, 0.25);
+    background: rgba(24, 138, 101, 0.02);
+    padding: 40px 24px;
+}
+
+.quick_sms .mobile_number_field {
+    position: relative;
+}
+
+.quick_sms .message {
+    margin-top: 16px;
+    position: relative;
+}
+
+.quick_sms .send_sms_button_container {
+    text-align: right;
+    padding-top: 16px;
+}
+
+.quick_sms label + div {
+    padding-top: 8px;
+}
+
+.quick_sms button {
+    border: 1px solid #4CAF50 ;
+    color: #1F3448;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    box-shadow: none;
+}
+
+.quick_sms .loading_cursor {
+    cursor: progress;
+}
+
+.inpwpnotifier_admin_conf .quick_sms button {
+    background: rgba(33, 238, 171, 0.1);
+    border-radius: 2px;
+    padding: 0 39px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+
+
+/*.notification_message {*/
+/*    display: none;*/
+/*}*/
+
+.quick_sms_response_box {
+    min-height: 40px;
+    text-align: center;
+    border-radius: 1px;
+    position: relative;
+    margin-top: 16px;
+    padding: 10px;
+
+}
+
+.inpwpnotifier_admin_conf .quick_sms_response_box {
+    float: right;
+    width: 80%;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.msg_send_success {
+    background: rgba(0, 184, 184, 0.05);
+    color: #4CAF50 ;
+    border: 1px solid #4CAF50 ;
+}
+
+.msg_send_failed {
+    background: rgba(184, 0, 55, 0.05);
+    border: 1px solid #B80037;
+    color: #B80037;
+}
+
+.quick_sms_response_box i {
+    content: '';
+    mask-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%2226%22%3E%3Cpath%20d%3D%22M24.5%2016.667a2.611%202.611%200%200%201-2.611%202.611H6.222L1%2024.5V3.611A2.611%202.611%200%200%201%203.611%201h18.278A2.611%202.611%200%200%201%2024.5%203.611z%22%20fill%3D%22none%22%20stroke%3D%22%2300b2b2%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E');
+    -webkit-mask-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%2226%22%3E%3Cpath%20d%3D%22M24.5%2016.667a2.611%202.611%200%200%201-2.611%202.611H6.222L1%2024.5V3.611A2.611%202.611%200%200%201%203.611%201h18.278A2.611%202.611%200%200%201%2024.5%203.611z%22%20fill%3D%22none%22%20stroke%3D%22%2300b2b2%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E');
+    mask-size: cover;
+    -webkit-mask-size: cover;
+
+}
+
+.quick_sms_response_box i {
+    position: relative;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    top: 10px;
+}
+
+.msg_send_success i {
+    background: #4CAF50 ;
+}
+
+.msg_send_failed i {
+    background: rgba(184, 0, 55, 1);
+}
+
+.quick_sms_response_box {
+    display: none;
+}
+
+.quick_sms_response_box .msg {
+    padding-left: 8px;
+}
+
+#inwpnotifier_loading_container {
+    width: 100%;
+    height: 100%;
+    top: 16px;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+}
+
+
+.gateway_based_notifications .inwpnotifier_gateway_configure_gateway, .gateway_based_notifications .enable_disable_gateway {
+    display: none;
+}
+
+.untdover_plugin_update {
+    cursor: pointer;
+}
+
+
+
+.inpwpnotifier_admin_conf .quick_sms button span {
+    cursor: pointer;
+}
+
+.inpwpnotifier_admin_conf .quick_sms .processing span, .inpwpnotifier_admin_conf .processing {
+    cursor: progress;
+}
+
+.inpwpnotifier_admin_conf .quick_sms .processing {
+    padding-left: 26px;
+    cursor: progress;
+}
+
+
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+.postbox .inside .quick_sms h2 {
+    font-weight: 600;
+    padding-left: 0 !important;
+    margin-bottom: 8px;
+}
+
+.inpwpnotifier_admin_conf .quick_sms_grid .placeholder_list {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.quick_sms hr {
+    margin-top: 20px
+}
+
+
+
+/*Loader*/
+
+.wpn-skeleton-loader {
+    overflow: hidden;
+}
+
+.wpn-skeleton-loader .skltn-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wpn-skeleton-loader .skltn-shine {
+    width: 200px;
+    height: 240px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    animation: shine-anim 2s infinite 0s linear;
+    z-index: 99;
+}
+
+.wpn-skeleton-loader .skltn-sec {
+    width: 100%;
+    height: 62px;
+    background-color: #fafdfc;
+    margin-bottom: 18px;
+    border: 1px solid #e1f7ef;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.wpn-skeleton-loader .skltn-sec .skltn-setting {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-color: #e1f7ef;
+    border-radius: 50%;
+    margin: 21px;
+    background-size: 600px;
+}
+
+.wpn-skeleton-loader .skltn-sec .skltn-line {
+    float: left;
+    width: 180px;
+    height: 20px;
+    margin: 21px;
+    border-radius: 4px;
+    background-color: #e1f7ef;
+    background-size: 600px;
+}
+
+.wpn-skeleton-loader .skltn-one {
+    opacity: 0.6;
+}
+
+.wpn-skeleton-loader .skltn-two {
+    opacity: 0.25;
+}
+
+@keyframes shine-anim {
+    0% {
+        transform: rotate(0) translateX(-100%) skewX(-20deg);
+    }
+    100% {
+        transform: rotate(0) translateX(800%) skewX(-20deg);
+    }
+}
+
+@-webkit-keyframes shine-anim {
+    0% {
+        -webkit-transform: rotate(0) translateX(-100%) skewX(-20deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) translateX(800%) skewX(-20deg);
+    }
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--single {
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid rgba(57, 203, 155, .25);
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 42px;
+    color: #1B2A3C !important;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+    right: 10px;
+    background-repeat: no-repeat !important;
+    background-size: 16px 16px !important;
+    background-position: center right !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='5 0 24 24' fill='none' stroke='%2321eeab' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow {
+    transform: rotate(180deg);
+    right: 13px;
+}
+
+
+
+
+
+
+.inpwpnotifier_admin_conf .select2-container *:focus {
+    outline: none;
+}
+
+.inpwpnotifier_admin_conf .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent;
+    border-width: 0;
+}
+
+/*.inpwpnotifier_admin_conf .select2-container--default .select2-selection--single .select2-selection__arrow b::after {
+    border-bottom: 1.3px solid #4CAF50 ;
+    border-right: 1.5px solid #4CAF50 ;
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -3px;
+    pointer-events: none;
+    position: absolute;
+    right: -2px;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px;
+}*/
+
+.inpwpnotifier_admin_conf .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b::after {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+
+
+
+.inpwpnotifier_admin_conf .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 16px;
+    padding-right: 40px;
+}
+
+html[dir='rtl'] .inpwpnotifier_admin_conf .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 16px;
+    padding-left: 40px;
+}
+
+.inpwpnotifier_admin_conf img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: zoom-out;
+    border-radius: 10px;
+}
+
+.inwpnotifier_preview_overlay {
+    position: fixed;
+    cursor: zoom-out;
+    top: 0;
+    left: 0;
+    display: none;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: rgba(31, 52, 70, 0.8);
+}
+
+a#whatsapp_download, a#sms_phone_app_download {
+    margin-left: 2px;
+}
+
+
+.inwpnotifier_admin_fields input[type="search"]::-webkit-search-decoration,
+.inwpnotifier_admin_fields input[type="search"]::-webkit-search-cancel-button,
+.inwpnotifier_admin_fields input[type="search"]::-webkit-search-results-button,
+.inwpnotifier_admin_fields input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+.inpwpnotifier_admin_conf .apisettingstab input,
+.inpwpnotifier_admin_conf .apisettingstab textarea{
+    direction: ltr;
+}
+
+.inwp_child_api{
+  background-color: grey;
+}
+.button.inwp_custom-css{
+        float: right;
+        background-color: #f5e6ab;
+        color: #1f3448;
+        font-size: 17px;
+}
+
+
+.inwpnotifier_email_switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 27px;
+}
+
+.inwpnotifier_email_switch .inwpnotifier_email_toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.inwpnotifier_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.inwpnotifier_slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.inwpnotifier_email_toggle:checked + .inwpnotifier_slider {
+    background-color: #4CAF50 ;
+}
+
+.inwpnotifier_email_toggle:focus + .inwpnotifier_slider {
+    box-shadow: 0 0 1px #4CAF50;
+}
+
+.inwpnotifier_email_toggle:checked + .inwpnotifier_slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+}
+
+/* Rounded sliders */
+.inwpnotifier_slider.inwpnotifier_slider_round {
+    border-radius: 34px;
+}
+
+.inwpnotifier_slider.inwpnotifier_slider_round:before {
+    border-radius: 50%;
+}
+
+.inwpnotifier_hide_subscribe_guest{
+    margin-left: 288px;
+}
+.inwpnotifier_hide_subscribe_members{
+    margin-left: 273px;
+}
+.inwpnotifier_show_subscribe_backorder{
+    margin-left: 253px;
+}
+.inwpnotifier_hide_subscribe_regular_products{
+    margin-left: 134px;
+}
+.inwpnotifier_hide_subscribe_sale_products{
+    margin-left: 158px;
+}
+.inwpnotifier_ignore_wc_out_stack_settings{
+    margin-left: 55px;
+}
+.inwpnotifier_form_theme_configurations{
+    margin-left: 10px;
+}
+.inwpnotifier_phone_number_verify{
+    margin-left: 222px;
+}
